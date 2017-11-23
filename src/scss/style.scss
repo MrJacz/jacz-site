@@ -1,8 +1,14 @@
-$bg-color:#333;
-$font-color:#fff;
-$primary-color:#008ed6;
-$dark-overlay: rgba(0, 0, 0, 0.7);
-$icon-size:30px;
+body {
+    line-height: 1.5px;
+    background-color: #f4f4f4;
+}
+
+.parallax-container {
+    height: 600px;
+}
+
+
+/* HELPERS */
 
 .mb-1 {
     margin-bottom: 1rem !important;

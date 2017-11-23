@@ -12,98 +12,55 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 
-<body class="grey lighten-4">
-
-    <ul class="side-nav light-blue lighten-2" id="mobile-demo">
-        <li class="active">
-            <a href="/">Home</a>
-        </li>
-        <li>
-            <a href="/about">About</a>
-        </li>
-    </ul>
-    <nav>
-        <div class="nav-wrapper blue lighten-1 z-depth-3">
+<body id="page-top">
+    <!-- NAVBAR -->
+    <div class="navbar-fixed">
+        <nav class="nav-wrapper blue lighten-1 z-depth-3">
             <div class="container">
-                <a href="/" class="brand-logo black-text">Jacz</a>
+                <a href="#page-top" class="brand-logo center">Jacz</a>
                 <a href="#" data-activates="mobile-demo" class="button-collapse">
-                    <i class="material-icons">menu</i>
+                    <i class="fa fa-bars"></i>
                 </a>
                 <ul class="right hide-on-med-and-down">
-                    <li class="active">
-                        <a class="black-text" href="/">Home</a>
+                    <li>
+                        <a href="#portfolio" class="smooth-scroll"> Portfolio </a>
                     </li>
                     <li>
-                        <a class="black-text" href="/about">About</a>
+                        <a href="#about"> About </a>
+                    </li>
+                </ul>
+                <ul class="side-nav lighten-2" id="mobile-demo">
+                    <li class="active">
+                        <a href="#page-top"> Home </a>
+                    </li>
+                    <li>
+                        <a href="#portfolio"> Portfolio </a>
+                    </li>
+                    <li>
+                        <a href="#about"> About </a>
                     </li>
                 </ul>
             </div>
-        </div>
-    </nav>
-
-    <main>
-        <div class="header container center">
-            <h1 style="margin-bottom: 0" class="center">Jacz</h1>
-            <div class="row center">
-                <h5 class="header col s12 light">I'm a Javascript developer focusing on NodeJS.</h5>
+        </nav>
+    </div>
+    <!-- HEADER -->
+    <header>
+        <div class="parallax-container valign-wrapper">
+            <div class="parallax">
+                <img src="img/showcase.jpg">
             </div>
-        </div>
-        <div class="featured grey darken-1 mb-3">
-            <h1 class="center"> Projects </h1>
             <div class="container">
-                <div class="row">
-                    <div class="col s12 m4">
-                        <div class="card hoverable large">
-                            <div class="card-image">
-                                <img class="image-card responsive-img" src="https://cdn.discordapp.com/avatars/303181184718995457/d8c775536ad6a13cd117f0ac860355b8.png?size=2048"
-                                    alt="">
-                            </div>
-                            <div class="card-content">
-                                <span class="card-title"> PenguBot </span>
-                                <p> PenguBot is a Multi-Purpose Discord Bot which is filled with features ranging from Moderation,
-                                    Fun, Utilities, Music and more. </p>
-                            </div>
-                            <div class="card-action">
-                                <a href="https://pengubot.com">Learn more</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+                <p class="center white-text flow-text">Hi my name is Jack i'm known as Jacz on the internet, Please call me Jacz</p>
             </div>
         </div>
-    </main>
-
-    <footer class="page-footer blue lighten-1 z-depth-3 hide-on-med-and-down">
-        <div class="container">
-            <div class="row">
-                <div class="col l6 s12">
-                    <h5 class="black-text">Jacz Portfilo/Projects</h5>
-                    <p class="back-text text-lighten-4">Here you can see al my latest projects.</p>
-                </div>
-                <div class="col l4 offset-l2 s12">
-                    <h5 class="white-text">Links</h5>
-                    <ul>
-                        <li>
-                            <a class="white-text" href="https://discord.gg/J8AqH4A">Discord Server</a>
-                        </li>
-                        <li>
-                            <a class="white-text" href="https://twitter.com/jaczaus">Twitter</a>
-                        </li>
-                        <li>
-                            <a class="white-text" href="mailto:admin@jaczaus.me">Email</a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-        <div class="footer-copyright">
-            <div class="container center">
-                Jacz site © 2017
-            </div>
-        </div>
-    </footer>
-
+    </header>
+    <div class="fixed-action-btn" style="bottom: 45px; right: 24px;">
+        <a href="#page-top" class="btn-floating btn-large blue lighten-1 smooth-scroll">
+            <i class="fa fa-arrow-up" aria-hidden="true"></i>
+        </a>
+    </div>
     <script src="js/jquery.min.js"></script>
+    <script src="js/jquery.easing.min.js"></script>
     <script src="js/materialize.min.js"></script>
     <script src="js/index.js"></script>
 </body>
